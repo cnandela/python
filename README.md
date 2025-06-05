@@ -1,13 +1,15 @@
 # python
 
-Compiler vs interpreter based language
+Compiler vs interpreter based language:
 
 Compiler-based languages and interpreter-based languages refer to two different approaches to translating and executing high-level programming code.
+
 Compiler-based language:
 	•	A compiler translates the entire high-level program code into machine code (binary format) before execution.
 	•	The resulting executable machine code can be run directly by the computer's hardware.
 	•	Because the entire program is translated before execution, the execution speed is usually faster compared to interpreted languages.
 	•	Examples include C, C++, and Rust.
+ 
 Interpreter-based language:
 	•	An interpreter translates and executes the high-level program code line by line at runtime.
 	•	The code is not converted into machine code beforehand, which means the interpreter needs to be present each time the code is run.
@@ -17,7 +19,7 @@ Some languages use a combination of both approaches, such as Java, which uses a 
 
 
 
-How a C program compiled
+How a C program compiled:
 
 Compiling a C program involves several steps. Here’s a detailed overview:
 	1	Preprocessing:
@@ -53,7 +55,7 @@ This command tells gcc to perform all the steps mentioned above and produce an o
 
 
 
-C program memory structure
+C program memory structure:
 
 The memory structure of a C program is organized in a way that helps manage different types of data and operations efficiently. Here’s a breakdown of the typical memory layout:
 	1	Text Segment (Code Segment):
