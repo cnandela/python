@@ -169,3 +169,18 @@ cp = float(input())
 sp = float(input())
 cal_profit(cp, sp)
 
+
+
+#Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number.
+
+def is_even_odd(n):
+  div = n % 2
+  if div == 0:
+    print("number is even")
+  else:
+    print("number is odd")
+
+n = int(input())
+is_even_odd(n)
+
+
