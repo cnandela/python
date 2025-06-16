@@ -150,3 +150,22 @@ if insured:
   print("driver is insured")
 else:
   print("driver is not insured")
+
+
+
+# If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has keyboard, write a program to determine whether the seller has
+#made profit or incurred loss. Also determine how much profit he made or loss he incurred.
+def cal_profit(cp, sp):
+  if sp > cp:
+    profit = sp - cp
+    print (f"profit is:", profit)
+  elif cp > sp:
+    loss = cp - sp
+    print (f"loss is:", loss)
+  else:
+    print ("there is no profit or loss and it is break even")
+
+cp = float(input())
+sp = float(input())
+cal_profit(cp, sp)
+
