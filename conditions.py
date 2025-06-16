@@ -46,4 +46,21 @@ def pizza(size,add_pepperoni,extra_cheese):
   print ("your bill is:", bill)
   return bill
 
+
+
+#organization are entered through the keyboard. If the number of years for // which the employee has // # served the organization is greater than 3 then a bonus of Rs. 2500/- is // given to the employee. If the years of service are not greater // # than 3, then the program should do nothing.
+
+def emp_bonus(years):
+  if years > 3:
+    bonus = 2500
+    print(f"employee will get a bonus:", {bonus})
+  else:
+    print(f"employee is not eligible for a bonus")
+
+years = int(input())
+emp_bonus(years)
+
+
+
+
 pizza("S", "Y", "N")
