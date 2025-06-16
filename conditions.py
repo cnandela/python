@@ -184,3 +184,19 @@ n = int(input())
 is_even_odd(n)
 
 
+
+#A five-digit number is entered through the keyboard. Write aprogram to obtain the reverse
+def reverse(n):
+  str_n = str(n)
+  rev_num_s = str_n[::-1]
+  rev_num = int(rev_num_s)
+  print(f"reverse of {n} is:", rev_num)
+  return rev_num
+
+n = int(input())
+if 10000 <= n <=99999:
+  reverse(n)
+else:
+  print("enter a valid 5 digit number")
+
+
